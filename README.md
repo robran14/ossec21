@@ -119,4 +119,4 @@ oscap-ssh --sudo root@$target 22 xccdf eval \
 $data_stream
 ```
 ## Conclusion
-Deux vulnérabilités de niveau "high" était présentes, une sur deux a pu être corrigée => Ensure gpgcheck Enabled for Local Packages. Le reste des vulnérabilités (de niveau "medium") portais essentiellement sur les régles de mot de passe.
+Deux vulnérabilités de niveau "high" était présentes, une sur deux a pu être corrigée => Ensure gpgcheck Enabled for Local Packages. Le reste des vulnérabilités (de niveau "medium") portaient essentiellement sur les régles de mot de passe.
