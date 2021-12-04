@@ -70,7 +70,7 @@ firewall-cmd --add-port=8080/tcp
 firewall-cmd --reload
 python3 -m http.server 8080
 ```
-## Scan d’un règle
+## Scan d’une règle
 ```bash
 rule1="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_local_packages"
 type="rule1-$target-bp28m-before"
