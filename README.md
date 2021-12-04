@@ -1,5 +1,5 @@
 # ossec21
-Suite à la génération du premier rapport, deux niveaux de vulnérabilité sont présentes (high et medium). Dans le but d'être le plus optimisé possible, la correction portera uniquement sur le niveau "high".
+Suite à la génération du premier rapport, deux niveaux de vulnérabilité sont présentes ("high" et "medium"). Dans le but d'être le plus optimisé possible, la correction portera uniquement sur le niveau "high".
 
 - Ensure gpgcheck Enabled for Local Packages
 - Ensure Software Patches Installed
@@ -119,4 +119,4 @@ oscap-ssh --sudo root@$target 22 xccdf eval \
 $data_stream
 ```
 ## Conclusion
-Deux vulnérabilités de niveau "high" était présentes, une sur deux a pu être corrigée => Ensure gpgcheck Enabled for Local Packages.
+Deux vulnérabilités de niveau "high" était présentes, une sur deux a pu être corrigée => Ensure gpgcheck Enabled for Local Packages. Le reste des vulnérabilités (de niveau "medium") portais essentiellement sur les régles de mot de passe.
